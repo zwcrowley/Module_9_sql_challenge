@@ -57,26 +57,6 @@ Once you have a complete database, perform these steps:
 
 8. List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
 
-## Bonus (Optional)
-
-As you examine the data, you begin to suspect that the dataset is fake. Maybe your boss gave you spurious data in order to test the data engineering skills of a new employee? To confirm your hunch, you decide to create a visualization of the data to present to your boss. Follow these steps: 
-
-1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the following code to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
-
-   ```sql
-   from sqlalchemy import create_engine
-   engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-   connection = engine.connect()
-   ```
-
-    * Consult the [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
-
-    * If you’re using a password, do not upload your password to your GitHub repository. Review this [video](https://www.youtube.com/watch?v=2uaTPmNvH0I) and the [GitHub website](https://help.github.com/en/github/using-git/ignoring-files) for more information.
-
-2. Create a histogram to visualize the most common salary ranges for employees.
-
-3. Create a bar chart of average salary by title.
-
 
 ## Submission
 
@@ -85,8 +65,6 @@ As you examine the data, you begin to suspect that the dataset is fake. Maybe yo
 * Create a `.sql` file of your table schemata.
 
 * Create a `.sql` file of your queries.
-
-* (Optional) Create a Jupyter notebook of the bonus analysis.
 
 * Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
 
