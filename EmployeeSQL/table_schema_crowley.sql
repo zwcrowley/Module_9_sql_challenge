@@ -1,5 +1,5 @@
 -- Module 9 SQL Challenge
--- Table Schema:
+-- Table Schema: Data Engineering 
 -- Zack Crowley
 
 -- Make Tables to import csv files for challenge:
